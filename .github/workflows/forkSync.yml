@@ -14,6 +14,6 @@ jobs:
         with:
           github_token: ${{ secrets.SGITHUB_TOKEN }}
           owner: liuqi6968 # fork 的上游仓库 user
-          repo: -
+          #repo: -
           head: main # fork 的上游仓库 branch
           base: main # 本地仓库 branch
