@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: TG908/fork-sync@v1.9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.SGITHUB_TOKEN }}
           owner: liuqi6968 # fork 的上游仓库 user
           repo: -
           head: main # fork 的上游仓库 branch
